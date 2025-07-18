@@ -8,3 +8,9 @@ export const LATEST_PRODUCTS_LIMIT =
   Number(process.env.LATEST_PRODUCTS_LIMIT) || 4;
 export const SUPABASE_URL = process.env.SUPABASE_URL || '';
 export const SUPABASE_KEY = process.env.SUPABASE_KEY || '';
+export const signInDefaultValues = {
+  email: '',
+  password: '',
+};
+export const SUPERBASE_SERVICE_ROLE_KEY =
+  process.env.SUPERBASE_SERVICE_ROLE_KEY || '';
